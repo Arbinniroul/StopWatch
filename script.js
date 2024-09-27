@@ -6,10 +6,10 @@ function stopwatch(){
     ++mseconds;
 click.src="images/pause1.png"
  if(mseconds==60){
-        let mseconds=0;
+        mseconds=0;
         seconds++;
         if(seconds==60){
-            let seconds=0;
+          seconds=0;
             minutes++;
         }}
     
